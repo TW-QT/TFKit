@@ -15,7 +15,9 @@
 		F979BA1D1D84650200FA4689 /* TFKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F979BA1C1D84650200FA4689 /* TFKitExampleUITests.m */; };
 		F979BA381D84661100FA4689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F979BA2D1D84661100FA4689 /* ViewController.m */; };
 		F979BA391D84661200FA4689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F979BA311D84661100FA4689 /* AppDelegate.m */; };
-		F979BA3C1D84665800FA4689 /* UIView+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F979BA3B1D84665800FA4689 /* UIView+TFExtension.m */; };
+		F981E7D01D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F981E7CF1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m */; };
+		F981E7D31D8E3620008E49B0 /* UIImage+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F981E7D21D8E3620008E49B0 /* UIImage+TFExtension.m */; };
+		F981E7D61D8E36B0008E49B0 /* UIView+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F981E7D51D8E36B0008E49B0 /* UIView+TFExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +54,12 @@
 		F979BA2D1D84661100FA4689 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F979BA301D84661100FA4689 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F979BA311D84661100FA4689 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F979BA3A1D84665800FA4689 /* UIView+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFExtension.h"; sourceTree = "<group>"; };
-		F979BA3B1D84665800FA4689 /* UIView+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFExtension.m"; sourceTree = "<group>"; };
+		F981E7CE1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TFExtension.h"; sourceTree = "<group>"; };
+		F981E7CF1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TFExtension.m"; sourceTree = "<group>"; };
+		F981E7D11D8E3620008E49B0 /* UIImage+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TFExtension.h"; sourceTree = "<group>"; };
+		F981E7D21D8E3620008E49B0 /* UIImage+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TFExtension.m"; sourceTree = "<group>"; };
+		F981E7D41D8E36B0008E49B0 /* UIView+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFExtension.h"; sourceTree = "<group>"; };
+		F981E7D51D8E36B0008E49B0 /* UIView+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,8 +219,12 @@
 		F979BA361D84661100FA4689 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F979BA3A1D84665800FA4689 /* UIView+TFExtension.h */,
-				F979BA3B1D84665800FA4689 /* UIView+TFExtension.m */,
+				F981E7D41D8E36B0008E49B0 /* UIView+TFExtension.h */,
+				F981E7D51D8E36B0008E49B0 /* UIView+TFExtension.m */,
+				F981E7D11D8E3620008E49B0 /* UIImage+TFExtension.h */,
+				F981E7D21D8E3620008E49B0 /* UIImage+TFExtension.m */,
+				F981E7CE1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.h */,
+				F981E7CF1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -356,10 +366,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F981E7D01D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m in Sources */,
 				F979BA381D84661100FA4689 /* ViewController.m in Sources */,
+				F981E7D61D8E36B0008E49B0 /* UIView+TFExtension.m in Sources */,
 				F979B9F91D84650200FA4689 /* main.m in Sources */,
-				F979BA3C1D84665800FA4689 /* UIView+TFExtension.m in Sources */,
 				F979BA391D84661200FA4689 /* AppDelegate.m in Sources */,
+				F981E7D31D8E3620008E49B0 /* UIImage+TFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +597,7 @@
 				F979BA231D84650200FA4689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F979BA241D84650200FA4689 /* Build configuration list for PBXNativeTarget "TFKitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +606,7 @@
 				F979BA261D84650200FA4689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F979BA271D84650200FA4689 /* Build configuration list for PBXNativeTarget "TFKitExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +615,7 @@
 				F979BA291D84650200FA4689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
