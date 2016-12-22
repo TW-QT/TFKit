@@ -186,6 +186,7 @@
 		F979BA321D84661100FA4689 /* TFKit */ = {
 			isa = PBXGroup;
 			children = (
+				F9F37F2C1E08E12F00734BD5 /* Category */,
 				F979BA331D84661100FA4689 /* Controller */,
 				F979BA341D84661100FA4689 /* Model */,
 				F979BA351D84661100FA4689 /* Other */,
@@ -234,6 +235,13 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F9F37F2C1E08E12F00734BD5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
