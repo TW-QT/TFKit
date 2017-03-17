@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		869CF9821E7BA5FC00ECFA1E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 869CF9581E7BA5FC00ECFA1E /* .gitignore */; };
+		869CF9831E7BA5FC00ECFA1E /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 869CF9591E7BA5FC00ECFA1E /* .swift-version */; };
+		869CF9841E7BA5FC00ECFA1E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 869CF95A1E7BA5FC00ECFA1E /* LICENSE */; };
+		869CF9851E7BA5FC00ECFA1E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 869CF95B1E7BA5FC00ECFA1E /* README.md */; };
+		869CF9861E7BA5FC00ECFA1E /* NSString+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF95F1E7BA5FC00ECFA1E /* NSString+TFExtension.m */; };
+		869CF9871E7BA5FC00ECFA1E /* UIImage+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF9611E7BA5FC00ECFA1E /* UIImage+TFExtension.m */; };
+		869CF9881E7BA5FC00ECFA1E /* UIView+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF9631E7BA5FC00ECFA1E /* UIView+TFExtension.m */; };
+		869CF9891E7BA5FC00ECFA1E /* TFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF9671E7BA5FC00ECFA1E /* TFTextField.m */; };
+		869CF98A1E7BA5FC00ECFA1E /* TFKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 869CF9681E7BA5FC00ECFA1E /* TFKit.podspec */; };
+		869CF98B1E7BA5FC00ECFA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869CF96B1E7BA5FC00ECFA1E /* Assets.xcassets */; };
+		869CF98C1E7BA5FC00ECFA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869CF96C1E7BA5FC00ECFA1E /* LaunchScreen.storyboard */; };
+		869CF98D1E7BA5FC00ECFA1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869CF96E1E7BA5FC00ECFA1E /* Main.storyboard */; };
+		869CF98E1E7BA5FC00ECFA1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF9731E7BA5FC00ECFA1E /* ViewController.m */; };
+		869CF98F1E7BA5FC00ECFA1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF9761E7BA5FC00ECFA1E /* AppDelegate.m */; };
+		869CF9901E7BA5FC00ECFA1E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 869CF9771E7BA5FC00ECFA1E /* Info.plist */; };
+		869CF9911E7BA5FC00ECFA1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF9781E7BA5FC00ECFA1E /* main.m */; };
+		869CF9921E7BA5FC00ECFA1E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 869CF97D1E7BA5FC00ECFA1E /* Info.plist */; };
+		869CF9931E7BA5FC00ECFA1E /* TFKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF97E1E7BA5FC00ECFA1E /* TFKitExampleTests.m */; };
+		869CF9941E7BA5FC00ECFA1E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 869CF9801E7BA5FC00ECFA1E /* Info.plist */; };
+		869CF9951E7BA5FC00ECFA1E /* TFKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CF9811E7BA5FC00ECFA1E /* TFKitExampleUITests.m */; };
 		F979B9F91D84650200FA4689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F979B9F81D84650200FA4689 /* main.m */; };
 		F979BA021D84650200FA4689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F979BA001D84650200FA4689 /* Main.storyboard */; };
 		F979BA041D84650200FA4689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F979BA031D84650200FA4689 /* Assets.xcassets */; };
@@ -15,9 +35,6 @@
 		F979BA1D1D84650200FA4689 /* TFKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F979BA1C1D84650200FA4689 /* TFKitExampleUITests.m */; };
 		F979BA381D84661100FA4689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F979BA2D1D84661100FA4689 /* ViewController.m */; };
 		F979BA391D84661200FA4689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F979BA311D84661100FA4689 /* AppDelegate.m */; };
-		F981E7D01D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F981E7CF1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m */; };
-		F981E7D31D8E3620008E49B0 /* UIImage+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F981E7D21D8E3620008E49B0 /* UIImage+TFExtension.m */; };
-		F981E7D61D8E36B0008E49B0 /* UIView+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F981E7D51D8E36B0008E49B0 /* UIView+TFExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +55,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		869CF9581E7BA5FC00ECFA1E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		869CF9591E7BA5FC00ECFA1E /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		869CF95A1E7BA5FC00ECFA1E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		869CF95B1E7BA5FC00ECFA1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		869CF95E1E7BA5FC00ECFA1E /* NSString+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TFExtension.h"; sourceTree = "<group>"; };
+		869CF95F1E7BA5FC00ECFA1E /* NSString+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TFExtension.m"; sourceTree = "<group>"; };
+		869CF9601E7BA5FC00ECFA1E /* UIImage+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TFExtension.h"; sourceTree = "<group>"; };
+		869CF9611E7BA5FC00ECFA1E /* UIImage+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TFExtension.m"; sourceTree = "<group>"; };
+		869CF9621E7BA5FC00ECFA1E /* UIView+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFExtension.h"; sourceTree = "<group>"; };
+		869CF9631E7BA5FC00ECFA1E /* UIView+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFExtension.m"; sourceTree = "<group>"; };
+		869CF9641E7BA5FC00ECFA1E /* TFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFKit.h; sourceTree = "<group>"; };
+		869CF9661E7BA5FC00ECFA1E /* TFTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTextField.h; sourceTree = "<group>"; };
+		869CF9671E7BA5FC00ECFA1E /* TFTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTextField.m; sourceTree = "<group>"; };
+		869CF9681E7BA5FC00ECFA1E /* TFKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TFKit.podspec; sourceTree = "<group>"; };
+		869CF96B1E7BA5FC00ECFA1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869CF96D1E7BA5FC00ECFA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		869CF96F1E7BA5FC00ECFA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		869CF9721E7BA5FC00ECFA1E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		869CF9731E7BA5FC00ECFA1E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		869CF9751E7BA5FC00ECFA1E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		869CF9761E7BA5FC00ECFA1E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		869CF9771E7BA5FC00ECFA1E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869CF9781E7BA5FC00ECFA1E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		869CF9791E7BA5FC00ECFA1E /* TFKitExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TFKitExample.xcodeproj; sourceTree = "<group>"; };
+		869CF97D1E7BA5FC00ECFA1E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869CF97E1E7BA5FC00ECFA1E /* TFKitExampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFKitExampleTests.m; sourceTree = "<group>"; };
+		869CF9801E7BA5FC00ECFA1E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869CF9811E7BA5FC00ECFA1E /* TFKitExampleUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFKitExampleUITests.m; sourceTree = "<group>"; };
 		F979B9F41D84650200FA4689 /* TFKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F979B9F81D84650200FA4689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F979BA011D84650200FA4689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,12 +99,6 @@
 		F979BA2D1D84661100FA4689 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F979BA301D84661100FA4689 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F979BA311D84661100FA4689 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F981E7CE1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TFExtension.h"; sourceTree = "<group>"; };
-		F981E7CF1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TFExtension.m"; sourceTree = "<group>"; };
-		F981E7D11D8E3620008E49B0 /* UIImage+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TFExtension.h"; sourceTree = "<group>"; };
-		F981E7D21D8E3620008E49B0 /* UIImage+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TFExtension.m"; sourceTree = "<group>"; };
-		F981E7D41D8E36B0008E49B0 /* UIView+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFExtension.h"; sourceTree = "<group>"; };
-		F981E7D51D8E36B0008E49B0 /* UIView+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +126,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		869CF9571E7BA5FC00ECFA1E /* TFKit */ = {
+			isa = PBXGroup;
+			children = (
+				869CF9581E7BA5FC00ECFA1E /* .gitignore */,
+				869CF9591E7BA5FC00ECFA1E /* .swift-version */,
+				869CF95A1E7BA5FC00ECFA1E /* LICENSE */,
+				869CF95B1E7BA5FC00ECFA1E /* README.md */,
+				869CF95C1E7BA5FC00ECFA1E /* TFKit */,
+				869CF9681E7BA5FC00ECFA1E /* TFKit.podspec */,
+				869CF9691E7BA5FC00ECFA1E /* TFKitExample */,
+			);
+			name = TFKit;
+			path = ../../../..;
+			sourceTree = "<group>";
+		};
+		869CF95C1E7BA5FC00ECFA1E /* TFKit */ = {
+			isa = PBXGroup;
+			children = (
+				869CF95D1E7BA5FC00ECFA1E /* TFCategory */,
+				869CF9641E7BA5FC00ECFA1E /* TFKit.h */,
+				869CF9651E7BA5FC00ECFA1E /* TFUIKit */,
+			);
+			path = TFKit;
+			sourceTree = "<group>";
+		};
+		869CF95D1E7BA5FC00ECFA1E /* TFCategory */ = {
+			isa = PBXGroup;
+			children = (
+				869CF95E1E7BA5FC00ECFA1E /* NSString+TFExtension.h */,
+				869CF95F1E7BA5FC00ECFA1E /* NSString+TFExtension.m */,
+				869CF9601E7BA5FC00ECFA1E /* UIImage+TFExtension.h */,
+				869CF9611E7BA5FC00ECFA1E /* UIImage+TFExtension.m */,
+				869CF9621E7BA5FC00ECFA1E /* UIView+TFExtension.h */,
+				869CF9631E7BA5FC00ECFA1E /* UIView+TFExtension.m */,
+			);
+			path = TFCategory;
+			sourceTree = "<group>";
+		};
+		869CF9651E7BA5FC00ECFA1E /* TFUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				869CF9661E7BA5FC00ECFA1E /* TFTextField.h */,
+				869CF9671E7BA5FC00ECFA1E /* TFTextField.m */,
+			);
+			path = TFUIKit;
+			sourceTree = "<group>";
+		};
+		869CF9691E7BA5FC00ECFA1E /* TFKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				869CF96A1E7BA5FC00ECFA1E /* TFKitExample */,
+				869CF9791E7BA5FC00ECFA1E /* TFKitExample.xcodeproj */,
+				869CF97C1E7BA5FC00ECFA1E /* TFKitExampleTests */,
+				869CF97F1E7BA5FC00ECFA1E /* TFKitExampleUITests */,
+			);
+			path = TFKitExample;
+			sourceTree = "<group>";
+		};
+		869CF96A1E7BA5FC00ECFA1E /* TFKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				869CF96B1E7BA5FC00ECFA1E /* Assets.xcassets */,
+				869CF96C1E7BA5FC00ECFA1E /* LaunchScreen.storyboard */,
+				869CF96E1E7BA5FC00ECFA1E /* Main.storyboard */,
+				869CF9701E7BA5FC00ECFA1E /* Classes */,
+				869CF9771E7BA5FC00ECFA1E /* Info.plist */,
+				869CF9781E7BA5FC00ECFA1E /* main.m */,
+			);
+			path = TFKitExample;
+			sourceTree = "<group>";
+		};
+		869CF9701E7BA5FC00ECFA1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				869CF9711E7BA5FC00ECFA1E /* Controller */,
+				869CF9741E7BA5FC00ECFA1E /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		869CF9711E7BA5FC00ECFA1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				869CF9721E7BA5FC00ECFA1E /* ViewController.h */,
+				869CF9731E7BA5FC00ECFA1E /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		869CF9741E7BA5FC00ECFA1E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				869CF9751E7BA5FC00ECFA1E /* AppDelegate.h */,
+				869CF9761E7BA5FC00ECFA1E /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		869CF97A1E7BA5FC00ECFA1E /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869CF97C1E7BA5FC00ECFA1E /* TFKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				869CF97D1E7BA5FC00ECFA1E /* Info.plist */,
+				869CF97E1E7BA5FC00ECFA1E /* TFKitExampleTests.m */,
+			);
+			path = TFKitExampleTests;
+			sourceTree = "<group>";
+		};
+		869CF97F1E7BA5FC00ECFA1E /* TFKitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				869CF9801E7BA5FC00ECFA1E /* Info.plist */,
+				869CF9811E7BA5FC00ECFA1E /* TFKitExampleUITests.m */,
+			);
+			path = TFKitExampleUITests;
+			sourceTree = "<group>";
+		};
 		F979B9EB1D84650200FA4689 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +346,7 @@
 		F979BA321D84661100FA4689 /* TFKit */ = {
 			isa = PBXGroup;
 			children = (
+				869CF9571E7BA5FC00ECFA1E /* TFKit */,
 				F9F37F2C1E08E12F00734BD5 /* Category */,
 				F979BA331D84661100FA4689 /* Controller */,
 				F979BA341D84661100FA4689 /* Model */,
@@ -220,12 +381,6 @@
 		F979BA361D84661100FA4689 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F981E7D41D8E36B0008E49B0 /* UIView+TFExtension.h */,
-				F981E7D51D8E36B0008E49B0 /* UIView+TFExtension.m */,
-				F981E7D11D8E3620008E49B0 /* UIImage+TFExtension.h */,
-				F981E7D21D8E3620008E49B0 /* UIImage+TFExtension.m */,
-				F981E7CE1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.h */,
-				F981E7CF1D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -333,6 +488,12 @@
 			mainGroup = F979B9EB1D84650200FA4689;
 			productRefGroup = F979B9F51D84650200FA4689 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 869CF97A1E7BA5FC00ECFA1E /* Products */;
+					ProjectRef = 869CF9791E7BA5FC00ECFA1E /* TFKitExample.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F979B9F31D84650200FA4689 /* TFKitExample */,
@@ -347,9 +508,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				869CF98C1E7BA5FC00ECFA1E /* LaunchScreen.storyboard in Resources */,
+				869CF98D1E7BA5FC00ECFA1E /* Main.storyboard in Resources */,
+				869CF9841E7BA5FC00ECFA1E /* LICENSE in Resources */,
+				869CF9821E7BA5FC00ECFA1E /* .gitignore in Resources */,
 				F979BA071D84650200FA4689 /* LaunchScreen.storyboard in Resources */,
 				F979BA041D84650200FA4689 /* Assets.xcassets in Resources */,
 				F979BA021D84650200FA4689 /* Main.storyboard in Resources */,
+				869CF98A1E7BA5FC00ECFA1E /* TFKit.podspec in Resources */,
+				869CF9921E7BA5FC00ECFA1E /* Info.plist in Resources */,
+				869CF9901E7BA5FC00ECFA1E /* Info.plist in Resources */,
+				869CF98B1E7BA5FC00ECFA1E /* Assets.xcassets in Resources */,
+				869CF9831E7BA5FC00ECFA1E /* .swift-version in Resources */,
+				869CF9941E7BA5FC00ECFA1E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,12 +545,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F981E7D01D8E3606008E49B0 /* UIBarButtonItem+TFExtension.m in Sources */,
+				869CF98E1E7BA5FC00ECFA1E /* ViewController.m in Sources */,
 				F979BA381D84661100FA4689 /* ViewController.m in Sources */,
-				F981E7D61D8E36B0008E49B0 /* UIView+TFExtension.m in Sources */,
 				F979B9F91D84650200FA4689 /* main.m in Sources */,
+				869CF9931E7BA5FC00ECFA1E /* TFKitExampleTests.m in Sources */,
+				869CF9881E7BA5FC00ECFA1E /* UIView+TFExtension.m in Sources */,
+				869CF98F1E7BA5FC00ECFA1E /* AppDelegate.m in Sources */,
+				869CF9891E7BA5FC00ECFA1E /* TFTextField.m in Sources */,
+				869CF9861E7BA5FC00ECFA1E /* NSString+TFExtension.m in Sources */,
+				869CF9851E7BA5FC00ECFA1E /* README.md in Sources */,
 				F979BA391D84661200FA4689 /* AppDelegate.m in Sources */,
-				F981E7D31D8E3620008E49B0 /* UIImage+TFExtension.m in Sources */,
+				869CF9951E7BA5FC00ECFA1E /* TFKitExampleUITests.m in Sources */,
+				869CF9911E7BA5FC00ECFA1E /* main.m in Sources */,
+				869CF9871E7BA5FC00ECFA1E /* UIImage+TFExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +593,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		869CF96C1E7BA5FC00ECFA1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869CF96D1E7BA5FC00ECFA1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		869CF96E1E7BA5FC00ECFA1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869CF96F1E7BA5FC00ECFA1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		F979BA001D84650200FA4689 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

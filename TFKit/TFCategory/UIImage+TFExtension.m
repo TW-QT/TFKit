@@ -250,7 +250,7 @@
     // 2.恢复默认
     [filter setDefaults];
     // 3.给过滤器添加数据(正则表达式/账号和密码)
-    NSString *dataString = dataString;
+    //NSString *dataString = dataString;
     NSData *data = [dataString dataUsingEncoding:NSUTF8StringEncoding];
     [filter setValue:data forKeyPath:@"inputMessage"];
     // 4.获取输出的二维码
@@ -268,7 +268,7 @@
  * @param image CIImage
  * @param size 图片宽度
  */
-- (UIImage *)createNonInterpolatedUIImageFormCIImage:(CIImage *)image withSize:(CGFloat) size
++ (UIImage *)createNonInterpolatedUIImageFormCIImage:(CIImage *)image withSize:(CGFloat) size
 {
     CGRect extent = CGRectIntegral(image.extent);
     CGFloat scale = MIN(size/CGRectGetWidth(extent), size/CGRectGetHeight(extent));
