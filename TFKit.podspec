@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Donkey-Tao/TFKit.git", :tag => s.version.to_s}
   s.source_files = "TFKit/**/*.{h,m}"
-  s.framework    = "UIKit"
+  s.frameworks   = "UIKit",'Accelerate',"Security"
   s.requires_arc = true
 
 end

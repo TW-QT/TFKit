@@ -6,6 +6,7 @@
 //
 
 #import "UIImage+TFExtension.h"
+#import <Accelerate/Accelerate.h>
 
 @implementation UIImage (TFExtension)
 
