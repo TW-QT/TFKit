@@ -27,11 +27,15 @@
 
 //UI控件
 #import "TFTextField.h"
+#import "TFVerticalButton.h"
 
 //分类
 #import "NSDate+TFExtension.h"
 #import "UIView+TFExtension.h"
+#import "UIColor+TFExtension.h"
 #import "UIImage+TFExtension.h"
 #import "NSString+TFExtension.h"
+#import "UIBarButtonItem+TFExtension.h"
+
 
 #endif /* TFKit_h */
