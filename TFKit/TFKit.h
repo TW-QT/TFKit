@@ -24,10 +24,14 @@
 #ifndef TFKit_h
 #define TFKit_h
 
-#import "NSString+TFExtension.h"
-#import "UIImage+TFExtension.h"
-#import "UIView+TFExtension.h"
+
+//UI控件
 #import "TFTextField.h"
 
+//分类
+#import "NSDate+TFExtension.h"
+#import "UIView+TFExtension.h"
+#import "UIImage+TFExtension.h"
+#import "NSString+TFExtension.h"
 
 #endif /* TFKit_h */
