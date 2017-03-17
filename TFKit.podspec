@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TFKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Dabay tech : TFKit is useful UI tools."
   s.homepage     = "https://github.com/Donkey-Tao/TFKit"
   s.license      = "MIT"
