@@ -14,6 +14,7 @@
 
 //属性,方法,代理,runtime,自己写
 -(void)awakeFromNib{
+    [super awakeFromNib];
     //设置占位文字的颜色
     [self resignFirstResponder];
     //设置光标的颜色与文字颜色一致

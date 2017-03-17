@@ -8,7 +8,8 @@
 //  emailto: taofei0610@gmail.com
 
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 
 @interface NSString (TFExtension)
 

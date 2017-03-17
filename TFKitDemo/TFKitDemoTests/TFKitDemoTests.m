@@ -1,18 +1,18 @@
 //
-//  TFKitExampleTests.m
-//  TFKitExampleTests
+//  TFKitDemoTests.m
+//  TFKitDemoTests
 //
-//  Created by 陶飞 on 16/9/10.
-//  Copyright © 2016年 TaoFei. All rights reserved.
+//  Created by dabay on 2017/3/17.
+//  Copyright © 2017年 dabay. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface TFKitExampleTests : XCTestCase
+@interface TFKitDemoTests : XCTestCase
 
 @end
 
-@implementation TFKitExampleTests
+@implementation TFKitDemoTests
 
 - (void)setUp {
     [super setUp];

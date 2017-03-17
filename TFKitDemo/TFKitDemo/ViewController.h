@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  TFKitExample
+//  TFKitDemo
 //
-//  Created by 陶飞 on 16/9/10.
-//  Copyright © 2016年 TaoFei. All rights reserved.
+//  Created by dabay on 2017/3/17.
+//  Copyright © 2017年 dabay. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

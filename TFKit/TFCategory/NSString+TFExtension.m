@@ -9,6 +9,7 @@
 
 
 #import "NSString+TFExtension.h"
+#import <CommonCrypto/CommonDigest.h>
 
 @implementation NSString (TFExtension)
 
@@ -459,6 +460,7 @@
         str = [str stringByReplacingOccurrencesOfString:(NSString *)obj withString:html_code[idx]];
         idx++;
     }
+    NSLog(@"%@", code_hex.description);
     return str;
 }
 

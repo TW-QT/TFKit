@@ -239,7 +239,7 @@
  * 根据字符串生成二维码图片UIImage
  *
  * @param dataString 二维码中内容
- * @param WidthAndHeight 图片的宽高(二维码是正方形的,所以宽高相等)
+ * @param widthAndHeight 图片的宽高(二维码是正方形的,所以宽高相等)
  *
  * @return 生成的二维码图片
  */
