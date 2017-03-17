@@ -20,7 +20,7 @@
  *  获得UUID
  *  @return 返回uuid
  */
-+ (NSString *)UUID {
++ (NSString *)tf_UUID {
     CFUUIDRef theUUID = CFUUIDCreate(NULL);
     CFStringRef string = CFUUIDCreateString(NULL, theUUID);
     CFRelease(theUUID);
@@ -33,7 +33,7 @@
 /*
  计算字符串高度
  */
-- (CGSize)sizeWithFont:(UIFont *)font maxSize:(CGSize)maxSize
+- (CGSize)tf_sizeWithFont:(UIFont *)font maxSize:(CGSize)maxSize
 {
     NSDictionary *dict = @{NSFontAttributeName: font};
     CGSize textSize = [self boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:dict context:nil].size;
@@ -44,7 +44,7 @@
  *  产生MD5
  *  @return MD5
  */
-- (NSString *)MD5 {
+- (NSString *)tf_MD5 {
     const char *cStr = [self UTF8String];
     unsigned char digest[CC_MD5_DIGEST_LENGTH];
     CC_MD5(cStr, (CC_LONG)strlen(cStr), digest);
@@ -60,7 +60,7 @@
  *  检验字符串是否有效
  *  @return 若非空且不等于@“”，则返回YES，否则，返回NO
  */
-- (BOOL)isEmptyString {
+- (BOOL)tf_isEmptyString {
     
     return (self == nil || self.length == 0);
 }
@@ -70,14 +70,14 @@
 
 //----------------------------------- 正则表达式相关 ----------------------------------------------
 
-- (BOOL)isValidateWithRegex:(NSString *)regex
+- (BOOL)tf_isValidateWithRegex:(NSString *)regex
 {
     NSPredicate *pre = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     return [pre evaluateWithObject:self];
 }
 
 /* 邮箱验证 MODIFIED BY HELENSONG */
-- (BOOL)isValidEmail
+- (BOOL)tf_isValidEmail
 {
     NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
     NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
@@ -85,7 +85,7 @@
 }
 
 /* 手机号码验证 MODIFIED BY HELENSONG */
-- (BOOL)isValidPhoneNum
+- (BOOL)tf_isValidPhoneNum
 {
     //手机号以13， 15，18开头，八个 \d 数字字符
     NSString *phoneRegex = @"^((13[0-9])|(147)|(15[^4,\\D])|(17[0-9])|(18[0,0-9]))\\d{8}$";
@@ -94,7 +94,7 @@
 }
 
 /* 车牌号验证 MODIFIED BY HELENSONG */
-- (BOOL)isValidCarNo
+- (BOOL)tf_isValidCarNo
 {
     NSString *carRegex = @"^[A-Za-z]{1}[A-Za-z_0-9]{5}$";
     NSPredicate *carTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",carRegex];
@@ -102,28 +102,28 @@
 }
 
 /** 网址验证 */
-- (BOOL)isValidUrl
+- (BOOL)tf_isValidUrl
 {
     NSString *regex = @"^((http)|(https))+:[^\\s]+\\.[^\\s]*$";
-    return [self isValidateWithRegex:regex];
+    return [self tf_isValidateWithRegex:regex];
 }
 
 /** 邮政编码 */
-- (BOOL)isValidPostalcode {
+- (BOOL)tf_isValidPostalcode {
     NSString *phoneRegex = @"^[0-8]\\d{5}(?!\\d)$";
     NSPredicate *phoneTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneRegex];
     return [phoneTest evaluateWithObject:self];
 }
 
 /** 纯汉字 */
-- (BOOL)isValidChinese;
+- (BOOL)tf_isValidChinese;
 {
     NSString *phoneRegex = @"^[\u4e00-\u9fa5]+$";
     NSPredicate *phoneTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneRegex];
     return [phoneTest evaluateWithObject:self];
 }
 
-- (BOOL)isValidIP;
+- (BOOL)tf_isValidIP;
 {
     NSString *regex = [NSString stringWithFormat:@"^(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})$"];
     NSPredicate *pre = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
@@ -147,7 +147,7 @@
 }
 
 /** 身份证验证 refer to http://blog.csdn.net/afyzgh/article/details/16965107 */
-- (BOOL)isValidIdCardNum
+- (BOOL)tf_isValidIdCardNum
 {
     NSString *value = [self copy];
     value = [value stringByReplacingOccurrencesOfString:@"X" withString:@"x"];
@@ -222,7 +222,7 @@
     return NO;
 }
 
-- (BOOL)isValidWithMinLenth:(NSInteger)minLenth
+- (BOOL)tf_isValidWithMinLenth:(NSInteger)minLenth
                    maxLenth:(NSInteger)maxLenth
              containChinese:(BOOL)containChinese
         firstCannotBeDigtal:(BOOL)firstCannotBeDigtal;
@@ -236,7 +236,7 @@
     return [pre evaluateWithObject:self];
 }
 
-- (BOOL)isValidWithMinLenth:(NSInteger)minLenth
+- (BOOL)tf_isValidWithMinLenth:(NSInteger)minLenth
                    maxLenth:(NSInteger)maxLenth
              containChinese:(BOOL)containChinese
               containDigtal:(BOOL)containDigtal
@@ -256,13 +256,13 @@
 }
 
 /** 去掉两端空格和换行符 */
-- (NSString *)stringByTrimmingBlank
+- (NSString *)tf_stringByTrimmingBlank
 {
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
 /** 去掉html格式 */
-- (NSString *)removeHtmlFormat;
+- (NSString *)tf_removeHtmlFormat;
 {
     NSString *str = [NSString stringWithFormat:@"%@", self];
     
@@ -465,7 +465,7 @@
 }
 
 /** 工商税号 */
-- (BOOL)isValidTaxNo
+- (BOOL)tf_isValidTaxNo
 {
     NSString *emailRegex = @"[0-9]\\d{13}([0-9]|X)$";
     NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];

@@ -103,7 +103,7 @@
     return self.center.y;
 }
 
--(BOOL)isShowingOnKeyWindow{
+-(BOOL)tf_isShowingOnKeyWindow{
     
     // 主窗口
     UIWindow *window=[UIApplication sharedApplication].keyWindow;

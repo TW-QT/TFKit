@@ -34,7 +34,7 @@
 /**
  *判断一个空间是否真正显示在主窗口上 
  */
--(BOOL)isShowingOnKeyWindow;
+-(BOOL)tf_isShowingOnKeyWindow;
 
 
 @end

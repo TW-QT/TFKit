@@ -16,7 +16,7 @@
  *圆形图片
  *
  */
--(UIImage *)circleImage{
+-(UIImage *)tf_circleImage{
     
     //开启一个透明的图形上下文
     UIGraphicsBeginImageContextWithOptions(self.size, NO, 0.0);
@@ -50,7 +50,7 @@
  *
  *  @return 拉伸后的Image
  */
-+ (UIImage *)resizedImageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top
++ (UIImage *)tf_resizedImageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top
 {
     UIImage *image = [UIImage imageNamed:name];
     return [image stretchableImageWithLeftCapWidth:image.size.width * left topCapHeight:image.size.height * top];
@@ -63,7 +63,7 @@
  *  @param size  大小
  *
  */
-+ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size
++ (UIImage *)tf_imageWithColor:(UIColor *)color size:(CGSize)size
 {
     UIGraphicsBeginImageContextWithOptions(size, 0, [UIScreen mainScreen].scale);
     [color set];
@@ -75,7 +75,7 @@
 /**
  *  根据图片和颜色返回一张加深颜色以后的图片
  */
-+ (UIImage *)colorizeImage:(UIImage *)baseImage withColor:(UIColor *)theColor {
++ (UIImage *)tf_colorizeImage:(UIImage *)baseImage withColor:(UIColor *)theColor {
     
     UIGraphicsBeginImageContext(CGSizeMake(baseImage.size.width*2, baseImage.size.height*2));
     
@@ -110,7 +110,7 @@
  *
  *  @return 新的图片
  */
-- (UIImage *)boxblurImageWithBlur:(CGFloat)blur {
+- (UIImage *)tf_boxblurImageWithBlur:(CGFloat)blur {
     
     NSData *imageData = UIImageJPEGRepresentation(self, 1); // convert to jpeg
     UIImage* destImage = [UIImage imageWithData:imageData];
@@ -207,7 +207,7 @@
  *
  *  @return 修改后的Image
  */
-- (UIImage *)cropImageWithSize:(CGSize)size {
+- (UIImage *)tf_cropImageWithSize:(CGSize)size {
     
     float scale = self.size.width/self.size.height;
     CGRect rect = CGRectMake(0, 0, 0, 0);
@@ -256,7 +256,7 @@
     // 4.获取输出的二维码
     CIImage *outputImage = [filter outputImage];
     // 5.将CIImage转换成UIImage，并放大显示
-    UIImage *QRCodeImage=[self createNonInterpolatedUIImageFormCIImage:outputImage withSize:widthAndHeight];
+    UIImage *QRCodeImage=[self tf_createNonInterpolatedUIImageFormCIImage:outputImage withSize:widthAndHeight];
    
     return QRCodeImage;
 }
@@ -268,7 +268,7 @@
  * @param image CIImage
  * @param size 图片宽度
  */
-+ (UIImage *)createNonInterpolatedUIImageFormCIImage:(CIImage *)image withSize:(CGFloat) size
++ (UIImage *)tf_createNonInterpolatedUIImageFormCIImage:(CIImage *)image withSize:(CGFloat) size
 {
     CGRect extent = CGRectIntegral(image.extent);
     CGFloat scale = MIN(size/CGRectGetWidth(extent), size/CGRectGetHeight(extent));
