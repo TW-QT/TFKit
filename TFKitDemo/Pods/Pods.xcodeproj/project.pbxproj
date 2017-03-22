@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020BCCF25CA6B69F464995AC9B3EA033 /* UIImage+TFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DB59B903AEAC790C8C931E0F7869348A /* UIImage+TFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16EE81C9D25849BA05A38426FF55A3B8 /* NSString+TFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E874D8138414D978842FEB2DED9B364 /* NSString+TFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CFD4F181E53C696B4DDA792624DDB3E /* TFKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E24F3FD90B7F8E42184F412334824547 /* TFKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DD2E8B96D95A688DF09792A2F43534 /* UIColor+TFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E0BADD58876FA2E492FFB7979CB758 /* UIColor+TFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4412B3DE37EA2F9E40CDF7344377C479 /* UIBarButtonItem+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED3AFD6A55A14AFBE9B421AC251D7F /* UIBarButtonItem+TFExtension.m */; };
+		45A52BDB2033BFECBE321ACFD70FDC5E /* TFTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = EB04EA708F2A6F2CD0E58072EA0B0DCC /* TFTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4620C94204110AFC9F5331F8136B4C90 /* UIBarButtonItem+TFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD6874CF7D78949B1E8016E897F5A69 /* UIBarButtonItem+TFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C8651DFFEF1DE5E65C16BD5F77172D2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C5B1B48188A4286DC6046D8273E973 /* Security.framework */; };
+		524878F3597C37ECAC802ACDED5916DD /* UIView+TFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B921A2217132C63F7C360E98067643 /* UIView+TFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5620B95B9FDFA01ED8A3C09D06E5547E /* NSDate+TFExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6681CFC8C369253A1080204DE470E0F9 /* NSDate+TFExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626B038E6C90E183B49DDD291211BB7C /* TFVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C68998BEDA78CDFB63874604DF748E45 /* TFVerticalButton.m */; };
+		76E7F99FCC90123C7E4D9780F20411AC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4391B122EF0704ED8CA1CDF3FA687E7 /* Accelerate.framework */; };
+		8641C35399F1195296B37EA2CEF2F9F9 /* Pods-TFKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 315A6538F97C0E388AC5543AEC3A1931 /* Pods-TFKitDemo-dummy.m */; };
+		887391C43EC8C8F2D3E7A35211B0B7C6 /* UIView+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEB1CA049F8BB8092C0522E67AFB678 /* UIView+TFExtension.m */; };
+		98A8B5F47469B3A178EFD978CBEE0DD8 /* TFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D84FC66F3F3E955EE156BF3EEED46EB /* TFKit-dummy.m */; };
+		98B2AD29236DD7D3DC76A08AB7F2FE00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125746D2484E5D03700F2144BF14349D /* Foundation.framework */; };
+		9A9C9FB72CB37ED4542E9D312C85A7D0 /* TFVerticalButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D0B722B56233DBE86C3224025BD000 /* TFVerticalButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A00253E7998F97FB571F618280DCB92F /* NSDate+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 962F3C06FDC31331ED5B1CF01FEBACA1 /* NSDate+TFExtension.m */; };
+		B0A7728C8304628928B0B8479836593C /* UIColor+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 626BEABD30BB0F3CE8999B0566D0E9B1 /* UIColor+TFExtension.m */; };
+		D0EF1656AB08C6F91F444089DB8CD66E /* TFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F7123EF2FFF1847BF2C466A9A76F1D0B /* TFTextField.m */; };
+		DED22EF6D6E5ABC8D56A712B7C5FDC2F /* NSString+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAB3864A031B36EC8969862454E9454 /* NSString+TFExtension.m */; };
+		DFF74C3180A2514AC22AFC9772909A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125746D2484E5D03700F2144BF14349D /* Foundation.framework */; };
+		E1C3E3D85D63841ECEF01264D52FBDE5 /* UIImage+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB31B3D2A8DD6B43BB75C2AC90DFD798 /* UIImage+TFExtension.m */; };
+		E5B711CDD3CB926A28E2A36E3FD9AC8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAFF9093B86E8452CB593A0BB3E885D /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ADE8942C29CD6C8D62B5661974EC16B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FB19138C4E435ACA79CA3E1CD16D77;
+			remoteInfo = TFKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068D6E5EDFE063C7F5B43C901C0E2E7B /* TFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFKit-prefix.pch"; sourceTree = "<group>"; };
+		0BD6874CF7D78949B1E8016E897F5A69 /* UIBarButtonItem+TFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+TFExtension.h"; path = "TFKit/TFCategory/UIBarButtonItem+TFExtension.h"; sourceTree = "<group>"; };
+		0CAFF9093B86E8452CB593A0BB3E885D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0E874D8138414D978842FEB2DED9B364 /* NSString+TFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TFExtension.h"; path = "TFKit/TFCategory/NSString+TFExtension.h"; sourceTree = "<group>"; };
+		125746D2484E5D03700F2144BF14349D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1844E901E5EB31DE6EBB8DC5C4E2CFFE /* Pods-TFKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		25D0B722B56233DBE86C3224025BD000 /* TFVerticalButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFVerticalButton.h; path = TFKit/TFUIKit/TFVerticalButton.h; sourceTree = "<group>"; };
+		315A6538F97C0E388AC5543AEC3A1931 /* Pods-TFKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFKitDemo-dummy.m"; sourceTree = "<group>"; };
+		35877DEAED9FFBD1D1A9428DEA86F23F /* libTFKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTFKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C5B1B48188A4286DC6046D8273E973 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3D5C91AA12F070CB57754E5794320DFD /* Pods-TFKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47ED3AFD6A55A14AFBE9B421AC251D7F /* UIBarButtonItem+TFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+TFExtension.m"; path = "TFKit/TFCategory/UIBarButtonItem+TFExtension.m"; sourceTree = "<group>"; };
+		60B921A2217132C63F7C360E98067643 /* UIView+TFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TFExtension.h"; path = "TFKit/TFCategory/UIView+TFExtension.h"; sourceTree = "<group>"; };
+		626BEABD30BB0F3CE8999B0566D0E9B1 /* UIColor+TFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+TFExtension.m"; path = "TFKit/TFCategory/UIColor+TFExtension.m"; sourceTree = "<group>"; };
+		6681CFC8C369253A1080204DE470E0F9 /* NSDate+TFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+TFExtension.h"; path = "TFKit/TFCategory/NSDate+TFExtension.h"; sourceTree = "<group>"; };
+		7D84FC66F3F3E955EE156BF3EEED46EB /* TFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFKit-dummy.m"; sourceTree = "<group>"; };
+		8E6D5FE8B4FF6355C56F730DFDCD27FB /* Pods-TFKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		962F3C06FDC31331ED5B1CF01FEBACA1 /* NSDate+TFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TFExtension.m"; path = "TFKit/TFCategory/NSDate+TFExtension.m"; sourceTree = "<group>"; };
+		9CEB1CA049F8BB8092C0522E67AFB678 /* UIView+TFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TFExtension.m"; path = "TFKit/TFCategory/UIView+TFExtension.m"; sourceTree = "<group>"; };
+		A56AE5EA4CF7F3FD87A1FB6DCC349CFC /* libPods-TFKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TFKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB28E27E682B9577E10A6E1B917D10EA /* Pods-TFKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B032CFB5E15562D558838FA773228074 /* Pods-TFKitDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFKitDemo-resources.sh"; sourceTree = "<group>"; };
+		B82413C84AD6E4D664A51DE5CD6D4E6B /* Pods-TFKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFKitDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C68998BEDA78CDFB63874604DF748E45 /* TFVerticalButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFVerticalButton.m; path = TFKit/TFUIKit/TFVerticalButton.m; sourceTree = "<group>"; };
+		CBAB3864A031B36EC8969862454E9454 /* NSString+TFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TFExtension.m"; path = "TFKit/TFCategory/NSString+TFExtension.m"; sourceTree = "<group>"; };
+		DB59B903AEAC790C8C931E0F7869348A /* UIImage+TFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TFExtension.h"; path = "TFKit/TFCategory/UIImage+TFExtension.h"; sourceTree = "<group>"; };
+		E24F3FD90B7F8E42184F412334824547 /* TFKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFKit.h; path = TFKit/TFKit.h; sourceTree = "<group>"; };
+		E4391B122EF0704ED8CA1CDF3FA687E7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		E5E0BADD58876FA2E492FFB7979CB758 /* UIColor+TFExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+TFExtension.h"; path = "TFKit/TFCategory/UIColor+TFExtension.h"; sourceTree = "<group>"; };
+		EB04EA708F2A6F2CD0E58072EA0B0DCC /* TFTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFTextField.h; path = TFKit/TFUIKit/TFTextField.h; sourceTree = "<group>"; };
+		EB31B3D2A8DD6B43BB75C2AC90DFD798 /* UIImage+TFExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TFExtension.m"; path = "TFKit/TFCategory/UIImage+TFExtension.m"; sourceTree = "<group>"; };
+		F157C80BBC371EC8C10C314817D7A5F7 /* TFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFKit.xcconfig; sourceTree = "<group>"; };
+		F7123EF2FFF1847BF2C466A9A76F1D0B /* TFTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFTextField.m; path = TFKit/TFUIKit/TFTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BD5B5AE655B5B019707F0F19286941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E7F99FCC90123C7E4D9780F20411AC /* Accelerate.framework in Frameworks */,
+				DFF74C3180A2514AC22AFC9772909A73 /* Foundation.framework in Frameworks */,
+				4C8651DFFEF1DE5E65C16BD5F77172D2 /* Security.framework in Frameworks */,
+				E5B711CDD3CB926A28E2A36E3FD9AC8C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D620587207B18C1A53FF63062FA9BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B2AD29236DD7D3DC76A08AB7F2FE00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4A11CDA9026EB95962DB25813C935B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F765C078A8EB9300F331515AEC30FC97 /* Pods-TFKitDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E6DA8A14BEA0C660D0AA6E11106F01 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D4E392A14A830C00B7EEB36CDAB2F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88282502D30AA952C80ED313F509DCAD /* TFKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				63D4E392A14A830C00B7EEB36CDAB2F8 /* Pods */,
+				A8A699E8B897F4C2F8E9E4418F40F09A /* Products */,
+				0B4A11CDA9026EB95962DB25813C935B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88282502D30AA952C80ED313F509DCAD /* TFKit */ = {
+			isa = PBXGroup;
+			children = (
+				E24F3FD90B7F8E42184F412334824547 /* TFKit.h */,
+				EB04EA708F2A6F2CD0E58072EA0B0DCC /* TFTextField.h */,
+				F7123EF2FFF1847BF2C466A9A76F1D0B /* TFTextField.m */,
+				25D0B722B56233DBE86C3224025BD000 /* TFVerticalButton.h */,
+				C68998BEDA78CDFB63874604DF748E45 /* TFVerticalButton.m */,
+				60B921A2217132C63F7C360E98067643 /* UIView+TFExtension.h */,
+				9CEB1CA049F8BB8092C0522E67AFB678 /* UIView+TFExtension.m */,
+				E5E0BADD58876FA2E492FFB7979CB758 /* UIColor+TFExtension.h */,
+				626BEABD30BB0F3CE8999B0566D0E9B1 /* UIColor+TFExtension.m */,
+				6681CFC8C369253A1080204DE470E0F9 /* NSDate+TFExtension.h */,
+				962F3C06FDC31331ED5B1CF01FEBACA1 /* NSDate+TFExtension.m */,
+				DB59B903AEAC790C8C931E0F7869348A /* UIImage+TFExtension.h */,
+				EB31B3D2A8DD6B43BB75C2AC90DFD798 /* UIImage+TFExtension.m */,
+				0E874D8138414D978842FEB2DED9B364 /* NSString+TFExtension.h */,
+				CBAB3864A031B36EC8969862454E9454 /* NSString+TFExtension.m */,
+				0BD6874CF7D78949B1E8016E897F5A69 /* UIBarButtonItem+TFExtension.h */,
+				47ED3AFD6A55A14AFBE9B421AC251D7F /* UIBarButtonItem+TFExtension.m */,
+				DD4A0D0EEF99868AB8235FEF34C832E5 /* Support Files */,
+			);
+			path = TFKit;
+			sourceTree = "<group>";
+		};
+		A8A699E8B897F4C2F8E9E4418F40F09A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56AE5EA4CF7F3FD87A1FB6DCC349CFC /* libPods-TFKitDemo.a */,
+				35877DEAED9FFBD1D1A9428DEA86F23F /* libTFKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4A0D0EEF99868AB8235FEF34C832E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F157C80BBC371EC8C10C314817D7A5F7 /* TFKit.xcconfig */,
+				7D84FC66F3F3E955EE156BF3EEED46EB /* TFKit-dummy.m */,
+				068D6E5EDFE063C7F5B43C901C0E2E7B /* TFKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TFKit";
+			sourceTree = "<group>";
+		};
+		F0E6DA8A14BEA0C660D0AA6E11106F01 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4391B122EF0704ED8CA1CDF3FA687E7 /* Accelerate.framework */,
+				125746D2484E5D03700F2144BF14349D /* Foundation.framework */,
+				35C5B1B48188A4286DC6046D8273E973 /* Security.framework */,
+				0CAFF9093B86E8452CB593A0BB3E885D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F765C078A8EB9300F331515AEC30FC97 /* Pods-TFKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D5C91AA12F070CB57754E5794320DFD /* Pods-TFKitDemo-acknowledgements.markdown */,
+				1844E901E5EB31DE6EBB8DC5C4E2CFFE /* Pods-TFKitDemo-acknowledgements.plist */,
+				315A6538F97C0E388AC5543AEC3A1931 /* Pods-TFKitDemo-dummy.m */,
+				B82413C84AD6E4D664A51DE5CD6D4E6B /* Pods-TFKitDemo-frameworks.sh */,
+				B032CFB5E15562D558838FA773228074 /* Pods-TFKitDemo-resources.sh */,
+				8E6D5FE8B4FF6355C56F730DFDCD27FB /* Pods-TFKitDemo.debug.xcconfig */,
+				AB28E27E682B9577E10A6E1B917D10EA /* Pods-TFKitDemo.release.xcconfig */,
+			);
+			name = "Pods-TFKitDemo";
+			path = "Target Support Files/Pods-TFKitDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A711E6A907FE970C2BF7B503589C4E8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5620B95B9FDFA01ED8A3C09D06E5547E /* NSDate+TFExtension.h in Headers */,
+				16EE81C9D25849BA05A38426FF55A3B8 /* NSString+TFExtension.h in Headers */,
+				1CFD4F181E53C696B4DDA792624DDB3E /* TFKit.h in Headers */,
+				45A52BDB2033BFECBE321ACFD70FDC5E /* TFTextField.h in Headers */,
+				9A9C9FB72CB37ED4542E9D312C85A7D0 /* TFVerticalButton.h in Headers */,
+				4620C94204110AFC9F5331F8136B4C90 /* UIBarButtonItem+TFExtension.h in Headers */,
+				40DD2E8B96D95A688DF09792A2F43534 /* UIColor+TFExtension.h in Headers */,
+				020BCCF25CA6B69F464995AC9B3EA033 /* UIImage+TFExtension.h in Headers */,
+				524878F3597C37ECAC802ACDED5916DD /* UIView+TFExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C0E3B9E640EDEDF25C41A55488251164 /* Pods-TFKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B918B871FA9C27DBD24597E762E524D /* Build configuration list for PBXNativeTarget "Pods-TFKitDemo" */;
+			buildPhases = (
+				A149F5E12AFCC7F841535EDA6398EB24 /* Sources */,
+				92D620587207B18C1A53FF63062FA9BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F910882BF49E44917C329BE7FB0E2E /* PBXTargetDependency */,
+			);
+			name = "Pods-TFKitDemo";
+			productName = "Pods-TFKitDemo";
+			productReference = A56AE5EA4CF7F3FD87A1FB6DCC349CFC /* libPods-TFKitDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6FB19138C4E435ACA79CA3E1CD16D77 /* TFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BADFBBD50445C8B379FDDEAA7E53A43 /* Build configuration list for PBXNativeTarget "TFKit" */;
+			buildPhases = (
+				5B873BC195ABAD38BEF95297A7237C50 /* Sources */,
+				05BD5B5AE655B5B019707F0F19286941 /* Frameworks */,
+				A711E6A907FE970C2BF7B503589C4E8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFKit;
+			productName = TFKit;
+			productReference = 35877DEAED9FFBD1D1A9428DEA86F23F /* libTFKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A8A699E8B897F4C2F8E9E4418F40F09A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E3B9E640EDEDF25C41A55488251164 /* Pods-TFKitDemo */,
+				D6FB19138C4E435ACA79CA3E1CD16D77 /* TFKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B873BC195ABAD38BEF95297A7237C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00253E7998F97FB571F618280DCB92F /* NSDate+TFExtension.m in Sources */,
+				DED22EF6D6E5ABC8D56A712B7C5FDC2F /* NSString+TFExtension.m in Sources */,
+				98A8B5F47469B3A178EFD978CBEE0DD8 /* TFKit-dummy.m in Sources */,
+				D0EF1656AB08C6F91F444089DB8CD66E /* TFTextField.m in Sources */,
+				626B038E6C90E183B49DDD291211BB7C /* TFVerticalButton.m in Sources */,
+				4412B3DE37EA2F9E40CDF7344377C479 /* UIBarButtonItem+TFExtension.m in Sources */,
+				B0A7728C8304628928B0B8479836593C /* UIColor+TFExtension.m in Sources */,
+				E1C3E3D85D63841ECEF01264D52FBDE5 /* UIImage+TFExtension.m in Sources */,
+				887391C43EC8C8F2D3E7A35211B0B7C6 /* UIView+TFExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A149F5E12AFCC7F841535EDA6398EB24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8641C35399F1195296B37EA2CEF2F9F9 /* Pods-TFKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F910882BF49E44917C329BE7FB0E2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFKit;
+			target = D6FB19138C4E435ACA79CA3E1CD16D77 /* TFKit */;
+			targetProxy = 9ADE8942C29CD6C8D62B5661974EC16B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6961F4000415D5FA2E45A5665858D85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F157C80BBC371EC8C10C314817D7A5F7 /* TFKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TFKit/TFKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84C4C0D65D6C8B3F8C473673C68BB3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F157C80BBC371EC8C10C314817D7A5F7 /* TFKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TFKit/TFKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF320BDCB2653DA45C279815229018D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6D5FE8B4FF6355C56F730DFDCD27FB /* Pods-TFKitDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FDFD4CC9F73FAE2810CB9DBD77CBB622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB28E27E682B9577E10A6E1B917D10EA /* Pods-TFKitDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B918B871FA9C27DBD24597E762E524D /* Build configuration list for PBXNativeTarget "Pods-TFKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF320BDCB2653DA45C279815229018D9 /* Debug */,
+				FDFD4CC9F73FAE2810CB9DBD77CBB622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BADFBBD50445C8B379FDDEAA7E53A43 /* Build configuration list for PBXNativeTarget "TFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6961F4000415D5FA2E45A5665858D85D /* Debug */,
+				84C4C0D65D6C8B3F8C473673C68BB3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
