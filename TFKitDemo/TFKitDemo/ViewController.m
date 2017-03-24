@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <TFKit.h>
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //UIView+TFExtension
+    UIView *tf_view=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
+    tf_view.backgroundColor=[UIColor brownColor];
+    [self.view addSubview:tf_view];
+
+
+    
+    
 }
 
 
