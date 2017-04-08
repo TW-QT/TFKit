@@ -68,6 +68,7 @@
 
 
 
+
 //----------------------------------- 正则表达式相关 ----------------------------------------------
 
 - (BOOL)tf_isValidateWithRegex:(NSString *)regex
@@ -75,6 +76,25 @@
     NSPredicate *pre = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     return [pre evaluateWithObject:self];
 }
+
+/**
+ 判断用户输入的密码是否符合规范，符合规范的密码要求：
+ 1. 长度大于6位
+ 2. 密码中必须同时包含数字和字母
+ 
+ @return 是否符合规范
+ */
+-(BOOL)tf_judgePassWordLegal{
+    BOOL result = false;
+    if ([self length] >= 6){
+        // 判断长度大于8位后再接着判断是否同时包含数字和字符
+        NSString * regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,16}$";
+        NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
+        result = [pred evaluateWithObject:self];
+    }
+    return result;
+}
+
 
 /* 邮箱验证 MODIFIED BY HELENSONG */
 - (BOOL)tf_isValidEmail
@@ -123,6 +143,7 @@
     return [phoneTest evaluateWithObject:self];
 }
 
+/** 是否为有效的IP地址 */
 - (BOOL)tf_isValidIP;
 {
     NSString *regex = [NSString stringWithFormat:@"^(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})$"];
