@@ -70,6 +70,24 @@
 
 //----------------------------------- 正则表达式相关 ----------------------------------------------
 
+/**
+ 判断用户输入的密码是否符合规范，符合规范的密码要求：
+ 1. 长度大于d等于6位小于等于18位
+ 2. 密码中必须同时包含数字和字母
+ 
+ @return 是否符合规范
+ */
+-(BOOL)tf_judgePassWordLegal{
+    BOOL result = false;
+    if ([self length] >= 6){
+        // 判断长度大于8位后再接着判断是否同时包含数字和字符
+        NSString * regex = @"^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,18}$";
+        NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
+        result = [pred evaluateWithObject:self];
+    }
+    return result;
+}
+
 - (BOOL)tf_isValidateWithRegex:(NSString *)regex
 {
     NSPredicate *pre = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
